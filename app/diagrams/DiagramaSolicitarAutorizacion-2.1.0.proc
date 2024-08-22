@@ -96,7 +96,7 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_fXEaKWAnEe-_lODiJoPQnQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_fXEaKmAnEe-_lODiJoPQnQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_fXEaK2AnEe-_lODiJoPQnQ" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_kh4qYGAtEe-_lODiJoPQnQ" documentation="Se envia notificación del documento HAPS está listo para ser recogido por el conductor tramitante." name="Notificar Recojo de HAPS" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
+          <connectors xmi:type="process:Connector" xmi:id="_kh4qYGAtEe-_lODiJoPQnQ" documentation="Se envia notificación del documento HAPS está listo para ser recojido por el conductor tramitante." name="Notificar Recojo de HAPS" definitionId="email" event="ON_ENTER" definitionVersion="1.2.0">
             <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_kh4qYWAtEe-_lODiJoPQnQ" definitionId="email" version="1.2.0" modelVersion="8">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_kh4qYmAtEe-_lODiJoPQnQ" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_kh4qY2AtEe-_lODiJoPQnQ" name="localhost" content="localhost" returnTypeFixed="true"/>
@@ -144,7 +144,7 @@
                 <expression xmi:type="expression:Expression" xmi:id="_kh4qf2AtEe-_lODiJoPQnQ" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_kh4qgGAtEe-_lODiJoPQnQ" key="message">
-                <expression xmi:type="expression:Expression" xmi:id="_kh4qgWAtEe-_lODiJoPQnQ" name="&lt;pattern-expression>" content="&lt;p>Se le comunica que su documento fue&amp;nbsp;tramitado con exito y est&amp;aacute; listo para ser recogido en sede, en horario de oficina.&lt;/p>&#xA;" type="TYPE_PATTERN" returnTypeFixed="true"/>
+                <expression xmi:type="expression:Expression" xmi:id="_kh4qgWAtEe-_lODiJoPQnQ" name="&lt;pattern-expression>" content="&lt;p>Se le comunica que su documento fue&amp;nbsp;tramitado con exito y est&amp;aacute; listo para ser recojido en sede, en horario de oficina.&lt;/p>&#xA;" type="TYPE_PATTERN" returnTypeFixed="true"/>
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_kh4qgmAtEe-_lODiJoPQnQ" key="headers">
                 <expression xmi:type="expression:TableExpression" xmi:id="_kh4qg2AtEe-_lODiJoPQnQ"/>
